@@ -1,0 +1,36 @@
+@import "base.css";
+:root {
+    .van-dialog__header{
+        padding-top: 15px;
+    }
+    .van-nav-bar{
+        background-color: #000000;
+        .van-nav-bar__text{
+            color: #ffffff;
+        }
+        .van-icon{
+            color: #ffffff;
+        }
+    }
+    .van-button--primary {
+        width: 100%;
+        background-color: #000000;
+        border: 0;
+    }
+    .van-button--normal{
+        padding: 0;
+        margin: 0;
+    }
+    .van-list{
+        .van-cell{
+            padding: 0;
+            &:after{
+                border: 0;
+            }
+        }
+    }
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
